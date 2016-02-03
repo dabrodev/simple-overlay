@@ -23,7 +23,7 @@ $("#imageGallery a").click(function (event) {
     //Show the overlay.
    $overlay.show();
   //Get child's alt attribute and set caption
-  var captionText = $(this).children("img").attr("alt");
+  var captionText = $(this).children("img").attr("title");
   $caption.text(captionText);
 });
 
