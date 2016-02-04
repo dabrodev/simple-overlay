@@ -1,1 +1,1 @@
-# simple-overlay
+# Simple overlay/lightbox from scratch using jQuery
